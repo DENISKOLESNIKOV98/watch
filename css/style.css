@@ -28,6 +28,9 @@ header {
     max-width: 1070px;
     margin: 0px auto;
 }
+.header__conteiner{
+    display: flex;
+}
 
 .header__desc {
     padding-top:104px ;
@@ -53,8 +56,32 @@ title{
     margin-bottom: 61px;
 }
 .call-to-action{
-
+display: flex;
 }
-buy{
+.buy-link{
+   color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+    background: #161515;
+    text-decoration: none;
+    padding:26px 74px ;
+    display: inline-block;
+}
+.call-to-action__price{
+    padding: 16px 28px;
+    color: #fff;
+   box-shadow: #000;
+    color: #272727;
+text-align: center;
+font-family: "League Spartan";
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: 186%; /* 59.52px */
+}
+.hearder__img{
+    width: 100%;
+}
+.hearder__img-wrap{
     
 }
