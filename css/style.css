@@ -1,87 +1,104 @@
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
-h1,h2,h3,h4,h5,h6{
-    margin: 0%;
-}
-
 html,
-body {
-    height: 100%;
+body{
+height: 100%;
 }
-
-body {
-    font-family: 'League Spartan', sans-serif;
+body{
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
 }
 
 .wrapper {
     min-height: 100%;
 }
 
-header {
-    background: #f8f8f8;
+.header {
+    background: #F8F8F8;
     min-height: 100vh;
-    padding-bottom: 160px;
+    padding-bottom: 100px;
 }
 
-.conteiner {
+.container {
     max-width: 1070px;
     margin: 0px auto;
 }
-.header__conteiner{
+
+.header__container {
     display: flex;
 }
 
 .header__desc {
-    padding-top:104px ;
-margin-right: 30px;
+    padding-top: 104px;
+    margin-right: 30px;
+    max-width: 630px;
 }
+
+.suptitle {
+    font-size: 24px;
+    font-weight: 300;
+}
+
 .header__suptitle {
-color: #161515;
-font-size: 24px;
-font-weight: 300;
-margin-bottom: 50px;
-max-width: 630px;
+    color: #161515;
+    margin-bottom: 53px;
 }
-title{
+
+.title {
     color: #272727;
     font-size: 250px;
     font-weight: 300;
 }
-.header__text{
-    color: #000;
-    line-height:155% ;
-    font-size: 32px; 
-    font-weight:300 ;
+
+.header__text {
+    color: #161515;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 155%;
     margin-bottom: 61px;
 }
-.call-to-action{
-display: flex;
+
+.call-to-action {
+    display: flex;
 }
-.buy-link{
-   color: #fff;
+
+.buy-link {
+    color: #FFF;
     font-size: 32px;
     font-weight: 300;
     background: #161515;
     text-decoration: none;
-    padding:26px 74px ;
+    padding: 26px 74px;
     display: inline-block;
 }
-.call-to-action__price{
+
+.call-to-action__price {
     padding: 16px 28px;
-    color: #fff;
-   box-shadow: #000;
+    background: #FFF;
+    box-shadow: 0px 0px 28px 0px rgba(214, 214, 214, 0.25);
     color: #272727;
-text-align: center;
-font-family: "League Spartan";
-font-size: 32px;
-font-style: normal;
-font-weight: 300;
-line-height: 186%; /* 59.52px */
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
 }
-.hearder__img{
+
+.header__img-wrap {
+    width: 408px;
+    height: 728px;
+}
+
+.header__img {
     width: 100%;
-}
-.hearder__img-wrap{
-    
+    height: 100%;
+    object-fit: cover;
 }
